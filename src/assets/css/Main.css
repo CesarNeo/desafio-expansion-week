@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 80%;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    background: #FBFBEF;
+}
+body ,p{
+    font: 400 1.5rem/1.2 'Nunito', sans-serif;
+}

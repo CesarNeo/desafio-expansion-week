@@ -1,0 +1,35 @@
+header{
+    margin: 10px;
+}
+header #text-header p{
+    margin-top: 1.5rem;
+}
+header #text-header p span{
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    color: #848484;
+}
+header #text-header p span a{
+    text-decoration: none;
+    color: #848484;
+    transition: color .2s;
+}
+header #text-header p span a:hover{
+    color: #5858FA;
+}
+h2 ,p + h2, p{
+    margin-bottom: 1.8rem;
+}
+h1{
+    color: #5858FA;
+}
+main{
+    margin: 10px;
+}
+h2{
+    font-size: 2rem;
+    color: #5858FA;
+}
+span{
+    font-weight: 700;
+}
