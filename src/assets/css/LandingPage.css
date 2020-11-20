@@ -1,5 +1,23 @@
 header{
-    margin: 10px;
+    background: rgb(63,184,251);
+    background: linear-gradient(0deg, rgba(63,184,251,1) 0%, rgba(100,206,250,1) 43%);
+    border-bottom: solid 1px;
+    border-radius: 0 0 3rem 3rem;
+    box-shadow: 0px 7px 8px black;
+}
+header #image-header{
+    display: flex;
+}
+header #image-header img{
+    max-width: 20rem;
+    margin:1rem auto;
+}
+header #text-header h1{
+    color: white;
+    font-weight: 800;
+}
+header #text-header{
+    padding: 2rem;
 }
 header #text-header p{
     margin-top: 1.5rem;
@@ -20,16 +38,45 @@ header #text-header p span a:hover{
 h2 ,p + h2, p{
     margin-bottom: 1.8rem;
 }
-h1{
-    color: #5858FA;
-}
 main{
     margin: 10px;
+}
+main #video-link{
+    border: dashed 1px #98adb5;
+    padding: 2rem;
+    border-radius: 3rem;
+}
+main #video-link iframe{
+    border-radius: 3rem;
+}
+main h2 img{
+    width: 5rem;
+    height: 5rem;
 }
 h2{
     font-size: 2rem;
     color: #5858FA;
+    display: flex;
+    
+    align-items: center;
 }
 span{
     font-weight: 700;
+}
+
+@media (min-width: 610px) {
+   header #image-header{
+       display: none;
+   }
+    main{
+        max-width: 965px;
+        margin: 2rem auto;
+        padding: 30px; 
+    }
+    main h2{
+        justify-content: space-between;
+    }
+    main #video-link iframe{
+        height: 500px;
+    }
 }
